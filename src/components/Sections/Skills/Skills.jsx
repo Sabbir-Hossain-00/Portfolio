@@ -70,7 +70,7 @@ export const Skills = () => {
     >
       <h2 className="text-4xl font-semibold  mb-20 text-center">Skills</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8  w-full ">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8  w-full ">
         {skills.map((skill, index) => (
           <div
             key={index}

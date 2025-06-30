@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <div className=" py-14 px-0 ">
       <div className=" flex flex-col lg:flex-row-reverse justify-between items-center">
-        <div className="lg:w-1/2 flex justify-end py-10">
+        <div className="lg:w-1/2 flex justify-end py-10 ">
           <img
             src="/sabbir.png"
             className="rounded-full shadow-[0_1px_80px_rgba(34,197,94,0.5)] border-2 border-green-500  shadow-green-800 w-50 h-50 md:w-100 md:h-100 float-animation "
@@ -53,7 +53,7 @@ export const Hero = () => {
                 href="https://www.linkedin.com/in/sabbir-hossain-0595b1301/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-green-500 transition"
+                className=" hover:text-green-500 transition"
               >
                 <FaLinkedin />
               </a>
@@ -61,7 +61,7 @@ export const Hero = () => {
                 href="https://github.com/Sabbir-Hossain-00"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-green-500 transition"
+                className=" hover:text-green-500 transition"
               >
                 <FaGithub />
               </a>
@@ -69,7 +69,7 @@ export const Hero = () => {
                 href="https://x.com/ms7398037"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-green-500 transition"
+                className=" hover:text-green-500 transition"
               >
                 <FaTwitter />
               </a>

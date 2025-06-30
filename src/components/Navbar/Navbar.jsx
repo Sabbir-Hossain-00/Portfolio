@@ -20,11 +20,11 @@ export const Navbar = () => {
   );
 
   return (
-    <section className="bg-black text-white shadow py-4">
+    <section className="bg-black text-white  ">
       <div className="navbar container mx-auto px-4 md:px-8 lg:px-12 xl:px-18 py-2">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className=" lg:hidden mt-2 mr-4 cursor-pointer">
+            <div tabIndex={0} role="button" className=" lg:hidden mt-3 mr-4 cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -42,13 +42,14 @@ export const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a href="#" className="text-2xl text-green-400 font-medium mb-1">
-            SABBIR<span className="text-4xl ml-0.5">.</span>
+          <a href="#" className="text-2xl text-green-400 font-medium mb-1 flex items-center">
+            <img src="/logo.png" className="w-16 mt-4" alt="" />
+            <p>SABBIR<span className="text-4xl ml-0.5">.</span></p>
           </a>
         </div>
 
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{links}</ul>
+          <ul className="menu menu-horizontal px-1 text-base">{links}</ul>
         </div>
 
         <div className="navbar-end">
