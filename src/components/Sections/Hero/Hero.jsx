@@ -5,7 +5,8 @@ import "../../../styles/animations.css";
 export const Hero = () => {
   return (
     <div className=" py-14 px-0 ">
-      <div className=" flex flex-col lg:flex-row-reverse justify-between items-center">
+      <div className=" flex flex-col lg:flex-row-reverse justify-between items-center ">
+        
         <div className="lg:w-1/2 flex justify-end py-10 ">
           <img
             src="/sabbir.png"
