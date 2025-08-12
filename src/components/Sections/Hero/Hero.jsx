@@ -6,10 +6,9 @@ export const Hero = () => {
   return (
     <div className=" py-14 px-0 ">
       <div className=" flex flex-col lg:flex-row-reverse justify-between items-center ">
-        
         <div className="lg:w-1/2 flex justify-end py-10 ">
           <img
-            src="/sabbir.png"
+            src="/Sabbir_Profile.jpg"
             className="rounded-full shadow-[0_1px_80px_rgba(34,197,94,0.5)] border-2 border-green-500  shadow-green-800 w-50 h-50 md:w-100 md:h-100 float-animation "
           />
         </div>
@@ -42,8 +41,7 @@ export const Hero = () => {
             {/* Resume Button */}
             <a
               href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Sabbir_Hossain_Resume.pdf" // optional custom filename
               className="btn bg-green-500 border-none shadow-none text-black"
             >
               Resume

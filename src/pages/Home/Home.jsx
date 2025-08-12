@@ -17,7 +17,7 @@ export const Home = ()=>{
            <section id="skills" className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-18">
               <Skills/>
            </section>
-           <section id="education" className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-18">
+           <section id="education" className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-18 ">
                <Education/>
            </section>
            <section id="projects" className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-18">
